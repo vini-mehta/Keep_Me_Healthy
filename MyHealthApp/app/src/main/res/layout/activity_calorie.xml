@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    android:gravity="center"
+    android:background="#DFF5F3"
+    tools:context=".RegisterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/tv_breakfast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="BREAKFAST"
+            android:textSize="36sp"/>
+
+        <Button
+            android:id="@+id/bt_breakfast"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/round_button"
+            android:text="+"
+            android:textAlignment="center"
+            android:textSize="36sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        android:layout_marginTop="15dp"
+        >
+        <TextView
+            android:id="@+id/tv_lunch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LUNCH"
+            android:textSize="36sp"
+            android:layout_alignParentLeft="true"/>
+        <Button
+            android:id="@+id/bt_lunch"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/round_button"
+            android:text="+"
+            android:textAlignment="center"
+            android:textSize="36sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="fill_vertical"
+    android:layout_marginTop="15dp">
+    <TextView
+        android:id="@+id/tv_dinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DINNER"
+        android:textSize="36sp"
+        android:layout_alignParentLeft="true"/>
+    <Button
+        android:id="@+id/bt_dinner"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/round_button"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="36sp"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bt_review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#6ED1E2"
+        android:padding="15dp"
+        android:text="QUICK REVIEW"
+        android:textSize="24dp" />
+    <TextView
+    android:id="@+id/tv_result"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_tot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:text="0"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/tv_of"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:text=" of "
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/tv_calc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:text=""
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_consumed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:text=" Calories Consumed! "
+        android:textSize="25sp" />
+</LinearLayout>
+
